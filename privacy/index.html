@@ -1,89 +1,133 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Tink Tink Boom: Dig Survivor Privacy Policy</title><style>body{font:16px/1.6 Georgia,serif;max-width:720px;margin:2rem auto;padding:0 16px;color:#222}h1{font-size:1.8rem}h2{font-size:1.2rem;margin-top:2rem}table{border-collapse:collapse;width:100%;font-size:14px;margin:1rem 0}th,td{border:1px solid #bbb;padding:6px 8px;text-align:left;vertical-align:top}th{background:#f2f2f2}</style></head><body>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Tink Tink Boom: Dig Survivor Privacy Policy</title><style>body{font:16px/1.6 Georgia,serif;max-width:720px;margin:2rem auto;padding:0 16px;color:#222}h1{font-size:1.8rem}h2{font-size:1.2rem;margin-top:2rem}table{border-collapse:collapse;width:100%;font-size:14px;margin:1rem 0}th,td{border:1px solid #bbb;padding:6px 8px;text-align:left;vertical-align:top}th{background:#f2f2f2}.wrap{overflow-x:auto}</style></head><body>
 <h1>Tink Tink Boom: Dig Survivor - Privacy Policy</h1>
 <p>Publisher and data controller: UltraEgo</p>
 <p>Contact: <a href="mailto:support@tinktinkboom.com">support@tinktinkboom.com</a></p>
-<p>Last updated: 16 November 2026 (second update). This version applies from the release of Tink Tink Boom 1.0 on iPhone.</p>
-<p>This policy explains what the game Tink Tink Boom (&quot;the game&quot;) does with information about you, which service providers it uses, and how you can control or delete that information. The game has no login and creates no account with a name, email address or password.</p>
+<p>Last updated: 18 November 2026. This version applies from the release of Tink Tink Boom 1.0 on iPhone.</p>
+<p>This policy explains what the game Tink Tink Boom (&quot;the game&quot;) does with information about you, which outside services receive it, and how you can control or delete it. The game has no login and creates no account with a name, email address or password.</p>
 
 <h2>1. Summary</h2>
 <ul>
 <li>Your game progress is saved on your device.</li>
-<li>The game uses six outside services: Apple (App Store and in-app purchases), RevenueCat (checks purchases), Google AdMob (optional rewarded ads), Google Analytics for Firebase (usage statistics), Firebase Crashlytics (crash reports) and Meta (measuring our ads on Facebook and Instagram).</li>
+<li>The game sends information to these outside services: Apple (App Store and in-app purchases), RevenueCat (checks purchases), Unity LevelPlay by ironSource (the ad mediator that picks which ad network shows each optional rewarded ad), the ad networks listed in section 4, Google Analytics for Firebase (usage statistics), Firebase Crashlytics (crash reports) and the Meta SDK (measuring our ads on Facebook and Instagram).</li>
+<li>The data types sent are device identifiers, a user ID, coarse location, purchase history, product interaction, advertising data, usage data and diagnostics (crash, performance and other diagnostic data). Section 3 lists each one and what it is used for.</li>
+<li>Your device's advertising identifier (IDFA) is used only if you allow tracking in the iPhone tracking prompt.</li>
 <li>Usage statistics, crash reports and Meta ad measurement: in the EEA, the UK, Switzerland and South Korea they stay off until you say yes. Everywhere else they are on from the first launch and you can turn them off at any time in Settings, Privacy Choices.</li>
-<li>Ads are personalised only if you allow it, including in the iPhone tracking prompt. Players below the minimum age in their region never get personalised ads, usage statistics or crash reports.</li>
 <li>We do not sell your information for money. We never receive your name, email address, contacts, photos, precise location or payment card details from the game.</li>
-<li>You can change your choices in the game's Settings at any time and delete your data as described in section 10.</li>
+<li>Deleting local data in the game removes the save on your device. Purchase records stay with Apple and RevenueCat, and our partners keep the data they received under their own policies. Section 12 explains how to ask for deletion.</li>
 </ul>
 
 <h2>2. Information stored on your device</h2>
 <ul>
 <li>Game progress, settings and the choices you make on the privacy screens.</li>
 <li>A random Player ID created by the game. It is not your name, email or store account. You can see and copy the first characters of it in Settings.</li>
-<li>An age band from Apple's age range answer, if Apple provides one (see section 9). The game does not ask for or store your birth date.</li>
+<li>An age band from Apple's age range answer, if Apple provides one (see section 11). The game does not ask for or store your birth date.</li>
 <li>Local diagnostic and performance files. The game may read your device model and graphics hardware to pick a suitable graphics quality.</li>
 </ul>
 
-<h2>3. Information sent from the game and why</h2>
-<table>
+<h2>3. Data types collected and why</h2>
+<p>This table matches the App Privacy answers for the game on the App Store. &quot;Linked&quot; means the data can be connected to an identifier for you or your device. &quot;Used for tracking&quot; means it may be combined with data from other companies' apps or websites for advertising or measurement.</p>
+<div class="wrap"><table>
+<tr><th>Data type</th><th>What it is</th><th>Purposes</th><th>Linked</th><th>Used for tracking</th><th>Received by</th></tr>
+<tr><td>Coarse location</td><td>Approximate area (for example country or city) worked out from your IP address. Never precise GPS location.</td><td>Third-party advertising, analytics</td><td>Yes</td><td>Yes</td><td>Ad networks (including Google AdMob, Chartboost, Pangle and BidMachine), Google Analytics for Firebase</td></tr>
+<tr><td>User ID</td><td>The game's random Player ID, and IDs that ad networks create for your device</td><td>App functionality, third-party advertising</td><td>Yes</td><td>Yes</td><td>RevenueCat (Player ID); ad networks including BidMachine, Pangle, Chartboost and DT Exchange (their own IDs)</td></tr>
+<tr><td>Device ID</td><td>The identifier for vendor (IDFV), app instance IDs created by Firebase and Meta, IDs created by the ad SDKs, and the advertising identifier (IDFA) only if you allow tracking</td><td>Third-party advertising, analytics, app functionality</td><td>Yes</td><td>Yes</td><td>Unity LevelPlay and the ad networks, Meta SDK, Meta Audience Network, Google, RevenueCat</td></tr>
+<tr><td>Purchase history</td><td>The in-app purchases you make: product, transaction ID, price, currency, date and store country</td><td>App functionality, analytics</td><td>Yes</td><td>No</td><td>Apple, RevenueCat, Meta SDK, Google Analytics for Firebase</td></tr>
+<tr><td>Product interaction</td><td>Game events such as run started, run ended, shop opened, purchase result and ad watched</td><td>Analytics, third-party advertising</td><td>Yes</td><td>Yes</td><td>Google Analytics for Firebase, Meta SDK, ad networks (including Google AdMob, Chartboost and BidMachine)</td></tr>
+<tr><td>Advertising data</td><td>Which ads were shown, and whether you watched, finished or tapped them</td><td>Third-party advertising, analytics</td><td>Yes</td><td>Yes</td><td>Unity LevelPlay and the ad networks (including Google AdMob, Meta Audience Network, Pangle, Chartboost and DT Exchange)</td></tr>
+<tr><td>Other usage data</td><td>Other information about how the app and the ads in it are used</td><td>Analytics, third-party advertising</td><td>No</td><td>No</td><td>DT Exchange</td></tr>
+<tr><td>Crash data</td><td>Crash and error reports: code location, device model, operating system, app version, free memory and disk space, and the game's last log lines</td><td>App functionality, analytics</td><td>No</td><td>No</td><td>Firebase Crashlytics, Google, Meta, Pangle</td></tr>
+<tr><td>Performance data</td><td>Frame rate, memory use, load times and ad load times</td><td>Analytics, third-party advertising</td><td>No</td><td>Yes</td><td>Google Analytics for Firebase, Google, BidMachine, Pangle</td></tr>
+<tr><td>Other diagnostic data</td><td>Device model, operating system, app version, language, network type and SDK versions</td><td>Analytics, third-party advertising</td><td>No</td><td>No</td><td>Google, Firebase, Crashlytics, Unity LevelPlay (ad quality checks)</td></tr>
+<tr><td>Other data types</td><td>Other technical information the ad and measurement SDKs read from the device and the network connection</td><td>Analytics, third-party advertising</td><td>Yes</td><td>No</td><td>Meta SDK, BidMachine, DT Exchange, Chartboost, Pangle</td></tr>
+</table></div>
+<p>Not collected: contact information (name, email, phone, address), precise location, contacts, photos or other user content, browsing or search history, health, financial information such as card details, sensitive information and date of birth. The game does not use your camera, microphone or files outside its own storage.</p>
+
+<h2>4. Outside services and their privacy policies</h2>
+<p>These are all the outside services the game sends information to. Each one handles information under its own privacy policy.</p>
+<div class="wrap"><table>
+<tr><th>Service</th><th>Role</th><th>Privacy policy</th></tr>
+<tr><td>Apple (App Store)</td><td>Sells and delivers in-app purchases</td><td><a href="https://www.apple.com/legal/privacy/">apple.com/legal/privacy</a></td></tr>
+<tr><td>RevenueCat, Inc.</td><td>Checks each purchase with Apple and restores purchases</td><td><a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></td></tr>
+<tr><td>Unity LevelPlay (ironSource), Unity Technologies</td><td>Ad mediator: requests an ad from the networks below and shows the winning one</td><td><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">unity.com/legal/game-player-and-app-user-privacy-policy</a></td></tr>
+<tr><td>Unity Ads, Unity Technologies</td><td>Ad network</td><td><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">unity.com/legal/game-player-and-app-user-privacy-policy</a></td></tr>
+<tr><td>Google AdMob, Google LLC</td><td>Ad network</td><td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a> and <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></td></tr>
+<tr><td>Liftoff (Vungle)</td><td>Ad network</td><td><a href="https://liftoff.ai/privacy-policy/">liftoff.ai/privacy-policy</a></td></tr>
+<tr><td>Mintegral</td><td>Ad network</td><td><a href="https://www.mintegral.com/en/privacy">mintegral.com/en/privacy</a></td></tr>
+<tr><td>Pangle</td><td>Ad network</td><td><a href="https://www.pangleglobal.com/privacy/enduser-en">pangleglobal.com/privacy/enduser-en</a></td></tr>
+<tr><td>InMobi</td><td>Ad network</td><td><a href="https://advertising.inmobi.com/privacy-policy">advertising.inmobi.com/privacy-policy</a></td></tr>
+<tr><td>DT Exchange (Digital Turbine)</td><td>Ad network</td><td><a href="https://www.digitalturbine.com/legal/privacy-policy">digitalturbine.com/legal/privacy-policy</a></td></tr>
+<tr><td>Meta Audience Network, Meta Platforms</td><td>Ad network</td><td><a href="https://www.facebook.com/privacy/policy/">facebook.com/privacy/policy</a></td></tr>
+<tr><td>BidMachine</td><td>Ad network</td><td><a href="https://www.bidmachine.com/privacy-policy">bidmachine.com/privacy-policy</a></td></tr>
+<tr><td>BIGO Ads</td><td>Ad network</td><td><a href="https://www.bigoads.com/privacy">bigoads.com/privacy</a></td></tr>
+<tr><td>Chartboost (LoopMe)</td><td>Ad network</td><td><a href="https://legal.loopme.com/privacy-center/loopme-privacy-notice">legal.loopme.com/privacy-center/loopme-privacy-notice</a></td></tr>
+<tr><td>HyprMX (Jun Group)</td><td>Ad network</td><td><a href="https://jungroup.com/pp/">jungroup.com/pp</a></td></tr>
+<tr><td>Moloco</td><td>Ad network</td><td><a href="https://www.moloco.com/terms-and-policies/privacy-portal">moloco.com/terms-and-policies/privacy-portal</a></td></tr>
+<tr><td>Google Analytics for Firebase, Google LLC</td><td>Usage statistics</td><td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a> and <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></td></tr>
+<tr><td>Firebase Crashlytics, Google LLC</td><td>Crash reports</td><td><a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></td></tr>
+<tr><td>Meta SDK, Meta Platforms</td><td>Measures our ads on Facebook and Instagram</td><td><a href="https://www.facebook.com/privacy/policy/">facebook.com/privacy/policy</a></td></tr>
+</table></div>
+
+<h2>5. What each service receives and when</h2>
+<div class="wrap"><table>
 <tr><th>Service</th><th>What it receives</th><th>Why</th><th>When</th></tr>
 <tr><td>Apple App Store</td><td>Your purchase, handled by Apple with your Apple account</td><td>To sell and deliver in-app purchases, and restore them</td><td>When you buy or restore</td></tr>
-<tr><td>RevenueCat</td><td>Your Player ID, the purchase record from Apple (product, transaction ID, price, currency, date, store country), app version, operating system version, device model, language and IP address</td><td>To check each purchase with Apple, deliver it once, remove items from a refunded purchase and restore your purchases</td><td>When the shop loads, when you buy and when you tap Restore Purchases</td></tr>
-<tr><td>Google AdMob, with Google's consent form (UMP)</td><td>Device and app information, IP address and the coarse location derived from it, information about the ads shown and your interaction with them, and, only if you allow tracking in the iPhone prompt, your device's advertising identifier (IDFA)</td><td>To show the optional rewarded ads you choose to watch, measure them and prevent fraud; to personalise ads only if you allow it</td><td>When you choose to watch an ad, and when the ad service starts</td></tr>
+<tr><td>RevenueCat</td><td>Your Player ID, the purchase record from Apple (product, transaction ID, price, currency, date, store country), app instance IDs from Firebase and Meta, app version, operating system version, device model, language and IP address, and the advertising identifier only if you allow tracking</td><td>To check each purchase with Apple, deliver it once, remove items from a refunded purchase, restore your purchases and measure purchases</td><td>When the shop loads, when you buy and when you tap Restore Purchases</td></tr>
+<tr><td>Unity LevelPlay and the ad networks in section 4</td><td>Device identifiers (the identifier for vendor and IDs the ad SDKs create, plus the advertising identifier only if you allow tracking), device and app information, IP address and the coarse location derived from it, information about the ads requested and shown and your interaction with them, performance and diagnostic data, and your privacy choices (consent, tracking answer and the Do not sell or share choice)</td><td>To pick and show the optional rewarded ads you choose to watch, confirm the reward, measure the ads, check ad quality and prevent fraud; to personalise ads only if you allow it</td><td>When the ad services start (see section 7) and when you choose to watch an ad</td></tr>
 <tr><td>Google Analytics for Firebase</td><td>An app instance ID created by Firebase, game events (for example run started, run ended, shop opened, purchase result, ad watched), performance figures (frame rate, memory, load times), device model, operating system, app version, language and the coarse location Google derives from your IP address</td><td>To understand how the game is played and improve it</td><td>In the EEA, the UK, Switzerland and South Korea only if you allow usage statistics; elsewhere on by default, and off as soon as you turn usage statistics off</td></tr>
 <tr><td>Firebase Crashlytics</td><td>Crash and error reports: the code location, device model, operating system, app version, free memory and disk space, and the game's last log lines before the crash</td><td>To find and fix crashes</td><td>In the EEA, the UK, Switzerland and South Korea only if you allow crash reports; elsewhere on by default, and off as soon as you turn crash reports off</td></tr>
-<tr><td>Meta (Facebook) SDK</td><td>App events (game opened, app installed, tutorial completed, level reached, and in-app purchases with product, price and currency), an app-scoped ID created by the Meta SDK, device model, operating system, app version, language and IP address, and, only if you allow tracking in the iPhone prompt, your device's advertising identifier (IDFA)</td><td>To measure which of our ads on Facebook and Instagram bring players to the game, and to show those ads to people likely to enjoy it</td><td>Same as usage statistics: in the EEA, the UK, Switzerland and South Korea only if you allow them; elsewhere on by default until you turn usage statistics off</td></tr>
-</table>
-<p>The game does not give RevenueCat or Firebase your advertising identifier, and gives it to AdMob and Meta only if you allow tracking in the iPhone prompt. It does not give anyone the device vendor identifier. The Player ID is not sent to Google Analytics, Crashlytics, AdMob or Meta. The game does not use your camera, microphone, contacts, photos, precise location or files outside its own storage.</p>
+<tr><td>Meta (Facebook) SDK</td><td>App events (game opened, app installed, tutorial completed, level reached, and in-app purchases with product, price and currency), an app-scoped ID created by the Meta SDK, device model, operating system, app version, language and IP address, and the advertising identifier only if you allow tracking</td><td>To measure which of our ads on Facebook and Instagram bring players to the game, and to show those ads to people likely to enjoy it</td><td>Same as usage statistics: in the EEA, the UK, Switzerland and South Korea only if you allow them; elsewhere on by default until you turn usage statistics off</td></tr>
+</table></div>
 
-<h2>4. Purchases</h2>
-<p>In-app purchases are made through Apple. Apple handles payment, and we never see your payment card or bank details. RevenueCat, Inc. processes purchase data only on our behalf, under its agreement with us and its privacy policy (<a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>). Apple processes information under its own terms and privacy policy.</p>
+<h2>6. Advertising identifier and tracking</h2>
+<p>Before the iPhone tracking prompt the game shows a short explanation screen. If you allow tracking, the advertising identifier (IDFA) can be read by the ad networks, the Meta SDK and RevenueCat. If you do not allow tracking, no one receives the advertising identifier, ads are not personalised with it, and Meta uses Apple's privacy-preserving measurement instead. The ad SDKs and the Meta SDK still read the identifier for vendor (IDFV) and other device information, for example to limit how often an ad is shown, measure ads and prevent fraud. You can change your answer at any time under iPhone Settings, Privacy and Security, Tracking.</p>
 
-<h2>5. Ads</h2>
-<p>The game shows only rewarded ads that you choose to watch. They are served by Google AdMob, operated by Google LLC (or Google Ireland Limited in the EEA, the UK and Switzerland). In the EEA, the UK and Switzerland, Google's consent form asks for your choices before the first ad; if you decline, you can still watch ads, but they are not personalised. On iPhone, the game asks your permission before the system tracking prompt; if you do not allow tracking, the advertising identifier is not used and ads are not personalised. You can change your ad choices at any time: in the EEA, the UK and Switzerland with AD PRIVACY OPTIONS in Settings in the game; in US states with the Do not sell or share my data choice in the game's privacy settings; and everywhere on iPhone under Settings, Privacy and Security, Tracking. Players below the minimum age get only non-personalised ads marked as directed at children. How Google uses data from ads: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.</p>
+<h2>7. Ads</h2>
+<p>The game shows only rewarded ads that you choose to watch. There are no banner, full-screen or app-open ads. Unity LevelPlay (ironSource), operated by Unity Technologies, acts as the ad mediator: for each ad it asks the networks in section 4 and shows the ad that wins. A reward is given only when the network confirms the ad was watched. In the EEA and the UK the game asks for your choices on Google's consent form (UMP) before the ad services start, and passes your answer to LevelPlay and the networks; if you decline, you can still watch ads, but they are not personalised. Everywhere else the ad services start when the game opens. You can change your ad choices at any time: in the EEA, the UK and Switzerland with AD PRIVACY OPTIONS in Settings in the game; in US states with the Do not sell or share my data choice in the game's privacy settings; and everywhere under iPhone Settings, Privacy and Security, Tracking. Players below the minimum age in their region get only non-personalised ads. The ad networks act as independent controllers for the data they receive and use it under their own privacy policies, linked in section 4.</p>
 
-<h2>6. Usage statistics and crash reports</h2>
+<h2>8. Purchases</h2>
+<p>In-app purchases are made through Apple. Apple handles payment, and we never see your payment card or bank details. RevenueCat, Inc. processes purchase data on our behalf, under its agreement with us and its privacy policy (<a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>). Apple processes information under its own terms and privacy policy.</p>
+
+<h2>9. Usage statistics and crash reports</h2>
 <p>Google Analytics for Firebase and Firebase Crashlytics are provided by Google LLC. In the EEA, the UK, Switzerland and South Korea the game keeps both off until you allow them (in the EEA, the UK and Switzerland through Google's consent form) and sends nothing to them before that. Everywhere else both are on from the first launch, based on our legitimate interest in keeping the game working and improving it, and you can turn either off at any time in Settings, Privacy Choices. The game tells Firebase not to use the data for advertising: advertising storage, ad user data and ad personalisation are always set to denied. If you turn usage statistics off later, collection stops and the analytics ID on your device is reset. Google's privacy policy: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>; Firebase privacy: <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>.</p>
 
-<h2>6a. Measuring our ads (Meta)</h2>
-<p>The Meta SDK is provided by Meta Platforms, Inc. (Meta Platforms Ireland Limited in the EEA, the UK and Switzerland). It follows your usage statistics choice: in the EEA, the UK, Switzerland and South Korea the game does not start it until you allow usage statistics; everywhere else it runs from the first launch until you turn usage statistics off in Settings, Privacy Choices. It helps us see which of our Facebook and Instagram ads lead to installs and purchases. If you do not allow tracking in the iPhone prompt, Meta receives no advertising identifier and uses Apple's privacy-preserving measurement instead. If you turn usage statistics off later, the game stops sending events to Meta. Meta's privacy policy: <a href="https://www.facebook.com/privacy/policy/">facebook.com/privacy/policy</a>.</p>
+<h2>9a. Measuring our ads (Meta)</h2>
+<p>The Meta SDK is provided by Meta Platforms, Inc. (Meta Platforms Ireland Limited in the EEA, the UK and Switzerland). It follows your usage statistics choice: in the EEA, the UK, Switzerland and South Korea the game does not start it until you allow usage statistics; everywhere else it runs from the first launch until you turn usage statistics off in Settings, Privacy Choices. It helps us see which of our Facebook and Instagram ads lead to installs and purchases. If you turn usage statistics off later, the game stops sending events to Meta. Meta's privacy policy: <a href="https://www.facebook.com/privacy/policy/">facebook.com/privacy/policy</a>.</p>
 
-<h2>7. Legal bases (EEA, UK and Switzerland)</h2>
+<h2>10. Legal bases (EEA, UK and Switzerland)</h2>
 <ul>
 <li>Purchases: to perform our contract with you (delivering what you bought) and to meet legal duties such as tax records.</li>
-<li>Usage statistics, crash reports and personalised ads: your consent, which you can withdraw at any time in Settings.</li>
-<li>Non-personalised rewarded ads and fraud prevention: our legitimate interest in funding a free game, and your consent where the law requires it for storing information on your device (asked through Google's consent form).</li>
+<li>Usage statistics, crash reports, Meta ad measurement and personalised ads: your consent, which you can withdraw at any time in Settings.</li>
+<li>Non-personalised rewarded ads, ad measurement and fraud prevention: our legitimate interest in funding a free game, and your consent where the law requires it for storing or reading information on your device (asked through Google's consent form).</li>
 </ul>
 
-<h2>8. Sharing, sale and international transfers</h2>
-<p>We share information only with the services in section 3. We do not sell your information for money. If you allow personalised ads or tracking, the information Google AdMob and Meta receive may count as &quot;sharing&quot; for cross-context behavioural advertising under some US state laws. To opt out, turn on Do not sell or share my data in the game's privacy settings, or do not allow tracking in the iPhone prompt (you can change it later under Settings, Privacy and Security, Tracking). Google, Meta and RevenueCat may process information in the United States and other countries. Where EEA, UK or Swiss law requires it, these transfers rely on the providers' standard contractual clauses or the EU-US Data Privacy Framework.</p>
-
-<h2>9. Children and the age gate</h2>
+<h2>11. Children and age</h2>
 <p>The game does not ask for your age. Where Apple's Declared Age Range service gives the game an age range for your Apple account, the game keeps only an age band on your device. For players below the minimum age that applies in their region, usage statistics, crash reports and personalised ads are switched off and the tracking prompt is never shown. The game is not directed at children below the minimum age in their region.</p>
 
-<h2>10. How long information is kept, and deleting it</h2>
+<h2>12. How long information is kept, and deleting it</h2>
 <ul>
-<li>On your device: until you delete it. In Settings, DELETE LOCAL DATA (or DELETE MY DATA on the privacy screen) asks once for confirmation, then erases everything the game stored on this device: your save and backups, the Player ID kept in the iPhone Keychain, settings, privacy choices, statistics, crash reports and ad limits. Nothing is kept in the cloud in 1.0, and a restart begins fresh. Uninstalling the game removes its files from your device.</li>
-<li>RevenueCat: kept while it is needed to restore your purchases and handle refunds, and as long as tax and accounting law requires. To have it deleted, email us with your Player ID (Settings, Copy) and we will delete your RevenueCat customer record within 30 days. Apple keeps its own purchase records under its own policy.</li>
-<li>Google Analytics for Firebase: event data is kept for no more than 14 months. Turning usage statistics off in Settings stops collection and resets the analytics ID. To ask for deletion of data already sent, email us; because the game does not send your Player ID to Google, we may need the app version and the date range you played to find it.</li>
-<li>Firebase Crashlytics: crash reports are deleted by Crashlytics after 90 days. They are not linked to your Player ID.</li>
-<li>Meta: Meta keeps app event data under its own policy. Turning usage statistics off stops new events. You can reset or block the advertising identifier in the iPhone settings, manage off-Facebook activity in your Facebook or Instagram account settings, or email us and we will pass a deletion request to Meta.</li>
-<li>Google AdMob: Google acts as an independent controller for personalised ads. You can reset or block the advertising identifier in the iPhone settings, and use Google&#x27;s tools at <a href="https://myaccount.google.com/data-and-privacy">myaccount.google.com/data-and-privacy</a> or Google&#x27;s privacy help to ask Google for access or deletion. You can also email us and we will pass your request to Google.</li>
+<li>On your device: until you delete it. In Settings, DELETE LOCAL DATA (or DELETE MY DATA on the privacy screen) asks once for confirmation, then erases everything the game stored on this device: your save and backups, the Player ID kept in the iPhone Keychain, settings, privacy choices, statistics, crash reports and ad limits. A restart begins fresh. Uninstalling the game removes its files from your device. Deleting local data does not delete data that was already sent to the services in section 4.</li>
+<li>Purchases: Apple and RevenueCat keep your purchase records. Apple keeps them under its own policy. RevenueCat keeps them while they are needed to restore your purchases and handle refunds, and as long as tax and accounting law requires. To have your RevenueCat customer record deleted, email us with your Player ID (Settings, Copy) and we will delete it within 30 days.</li>
+<li>Google Analytics for Firebase: event data is kept for no more than 14 months. Turning usage statistics off in Settings stops collection and resets the analytics ID. To ask for deletion of data already sent, email us with your Player ID, the app version and the dates you played.</li>
+<li>Firebase Crashlytics: crash reports are deleted by Crashlytics after 90 days.</li>
+<li>Meta: Meta keeps app event data under its own policy. Turning usage statistics off stops new events. You can manage off-Facebook activity in your Facebook or Instagram account settings, or email us and we will pass a deletion request to Meta.</li>
+<li>Unity LevelPlay and the ad networks: each keeps the data it received under its own privacy policy (linked in section 4) and offers its own access and deletion options. Turning off tracking stops them receiving the advertising identifier. You can also email us and we will pass your request to LevelPlay and the networks.</li>
 </ul>
+<p>For any deletion request, email <a href="mailto:support@tinktinkboom.com?subject=Tink%20Tink%20Boom%20data%20deletion">support@tinktinkboom.com</a> and include your Player ID if you can.</p>
 
-<h2>11. Your rights</h2>
+<h2>13. Sharing, sale and international transfers</h2>
+<p>We share information only with the services in section 4. We do not sell your information for money. The information Unity LevelPlay, the ad networks and Meta receive may count as &quot;sharing&quot; for cross-context behavioural advertising, or as a &quot;sale&quot;, under some US state laws. To opt out, turn on Do not sell or share my data in the game's privacy settings, and do not allow tracking in the iPhone prompt (you can change it later under Settings, Privacy and Security, Tracking). These services may process information in the United States and other countries. Where EEA, UK or Swiss law requires it, these transfers rely on the providers' standard contractual clauses or the EU-US Data Privacy Framework.</p>
+
+<h2>14. Your rights</h2>
 <p>Depending on where you live, you may have the right to access, correct, delete or receive a copy of your information, to object to or restrict its use, to withdraw consent, and to opt out of sharing for targeted advertising. Email us to use these rights; we answer within 30 days and do not treat you differently for using them. You can also complain to your local data protection authority.</p>
 
-<h2>12. Notifications</h2>
+<h2>15. Notifications</h2>
 <p>The game can show local notifications, such as reminders. They are scheduled on your device and do not use a push server. You can turn them off in your device settings.</p>
 
-<h2>13. Android</h2>
-<p>This policy also covers the Android version from Google Play. Where a service in section 3 is not yet switched on in the Android version, no data goes to it from Android.</p>
-
-<h2>14. Changes</h2>
+<h2>16. Changes</h2>
 <p>We update this policy, and the App Store privacy answers, before the game starts using a new service or a new kind of information. The date at the top shows the latest version.</p>
 
-<h2>15. Contact</h2>
+<h2>17. Contact</h2>
 <p>UltraEgo</p>
 <p><a href="mailto:support@tinktinkboom.com">support@tinktinkboom.com</a></p>
 <p>Support: <a href="../support/">support page</a></p>
